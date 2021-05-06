@@ -1,183 +1,186 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  .cabecalho {
-    height: 4rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    background-color: #fff;
-  }
-  .cabecalho .logo {
-    width: 100px;
-    padding-left: 1rem;
-    cursor: pointer;
-  }
-  .cabecalho .menu {
-    list-style: none;
-    display: flex;
-    padding: 10 100px;
-    margin-left: 200px;
-  }
-  .cabecalho .menu a {
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #000;
-    text-decoration: none;
-    padding: 8px;
-    font-weight: 400;
-  }
-  .menu a:hover {
-    border-bottom: solid 1px #111111;
-  }
-  .cabecalho .btn {
-    background-color: #fbea2b;
-    margin-left: 9rem;
-    width: 10rem;
-    height: 2rem;
-    border-radius: 5px;
-    border-style: none;
-    cursor: pointer;
-    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
-    color: #585858;
-  }
-  .cabecalho .btn a {
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    text-decoration: none;
-    color: #000;
-  }
-  .cabecalho .btn:hover {
-    border-style: solid;
-    box-shadow: 0.5px 0.1px 2px rgb(7, 7, 7);
-  }
-  .container{
-    height: 55rem;
-    width: 100%;
-    margin-top: 4rem;
-    background: rgb(223, 241, 223);
-    background: linear-gradient(
-      0deg,
-      rgba(223, 241, 223, 1) 0%,
-      rgba(222, 214, 214, 1) 22%,
-      rgba(199, 199, 199, 1) 100%);
-      color: #111111;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .container h2{
-    display: flex;
-    justify-content: center;
-    text-shadow:0 0.1rem 0.8rem #111111; 
-  }
-  .container .artigo{
-    display: inline-block;
-    background-color: #fff;
-    width: 50%;
-    height: 16rem;
-    padding:10 20px;
-    margin: 30 20px;
-    font-size: 15px;
-    box-shadow: 0 0.1rem 0.8rem #111111; 
-    border-radius: 30px;
-  }
-  .container .artigo h3{
-    color:#111111;
-    text-shadow:0 0.1rem 0.8rem #111111;
-    text-align: center;
-  }
-  .container .img1{
-    display: inline-block;
-    width:30%;
-    margin: 0 50px;
-    transform: rotate(20deg);
-    height: 300px;
-    opacity: 0.76;
-  }
-  .container .img2{
-    display: inline-block;
-    width:30%;
-    margin: 0 50px;
-    height: 250px;
-    opacity: 0.76;
-  }
-  .btn2{
-    display: flex;
-    margin-left: 40%;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    background-color: #fbea2b;
-    width: 20%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 3rem;
-    color: #000;
-    font-size: 22px;
-    border-radius: 30px;
-    box-shadow:0 0.1rem 0.8rem #111111;
-    cursor: pointer;
-    text-transform: uppercase;
-   
-  }
-  .btn2:hover{
-    border-style: solid;
-    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
-    color: #585858;
-    transform: rotate(5deg);
-  }
-  .rodape {
-    display: grid;
-    background-color: #000;
-    height: 5rem;
-    width: 100%;
-    grid-template-columns: 3fr 1fr 1fr;
-    grid-template-rows: 4rem 1rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #dff1df;
-    font-size: 12px;
-  
-  }
-  .rodape .text-rodape {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    align-self: center;
-    padding: 10px;
-  }
-  .rodape .img-rodape {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    justify-self: center;
-    align-self: center;
-    opacity: 0.5;
-    cursor: pointer;
-  }
-  .rodape .direitos {
-    background-color: #fbea2b;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    color: #000;
-    text-align: center;
-    font-size: 12px;
-  }
-  .rodape .direitos a {
-    text-decoration: none;
-    color: #000;
-  }
-  .rodape .direitos a:hover {
-    text-decoration: underline;
-  }
- 
+  padding: 0;
+  margin: 0;
+}
+.cabecalho {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+.cabecalho .logo {
+  width: 100px;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.cabecalho .menu {
+  list-style: none;
+  display: flex;
+  padding: 10 100px;
+  margin-left: 200px;
+}
+.cabecalho .menu a {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+  text-decoration: none;
+  padding: 8px;
+  font-weight: 400;
+}
+.menu a:hover {
+  border-bottom: solid 1px #111111;
+}
+.cabecalho .btn {
+  background-color: #fbea2b;
+  margin-left: 9rem;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+}
+.cabecalho .btn a {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+.cabecalho .btn:hover {
+  border-style: solid;
+  box-shadow: 0.5px 0.1px 2px rgb(7, 7, 7);
+}
+.container {
+  height: 55rem;
+  width: 100%;
+  margin-top: 4rem;
+  background: rgb(223, 241, 223);
+  background: linear-gradient(
+    0deg,
+    rgba(223, 241, 223, 1) 0%,
+    rgba(222, 214, 214, 1) 22%,
+    rgba(199, 199, 199, 1) 100%
+  );
+  color: #111111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 0.1rem 0.8rem #111111;
+}
+.container .artigo {
+  display: inline-block;
+  background-color: #fff;
+  width: 50%;
+  height: 16rem;
+  padding: 10 20px;
+  margin: 30 20px;
+  font-size: 15px;
+  box-shadow: 0 0.1rem 0.8rem #111111;
+  border-radius: 30px;
+}
+.container .artigo h3 {
+  color: #111111;
+  text-shadow: 0 0.1rem 0.8rem #111111;
+  text-align: center;
+}
+.container .img1 {
+  display: inline-block;
+  width: 30%;
+  margin: 0 50px;
+  transform: rotate(20deg);
+  height: 300px;
+  opacity: 0.76;
+  animation: move 1s;
+}
+.container .img2 {
+  display: inline-block;
+  width: 30%;
+  margin: 0 50px;
+  height: 250px;
+  opacity: 0.76;
+}
+.btn2 {
+  display: flex;
+  margin-left: 40%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: #fbea2b;
+  width: 20%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 3rem;
+  color: #000;
+  font-size: 22px;
+  border-radius: 30px;
+  box-shadow: 0 0.1rem 0.8rem #111111;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-style: none;
+}
+.btn2:hover {
+  border-style: solid;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+  color: #585858;
+  transform: rotate(5deg);
+}
+.container a {
+  text-decoration: none;
+}
+.rodape {
+  display: grid;
+  background-color: #000;
+  height: 5rem;
+  width: 100%;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows: 4rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #dff1df;
+  font-size: 12px;
+}
+.rodape .text-rodape {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: center;
+  padding: 10px;
+}
+.rodape .img-rodape {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: center;
+  align-self: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.rodape .direitos {
+  background-color: #fbea2b;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+}
+.rodape .direitos a {
+  text-decoration: none;
+  color: #000;
+}
+.rodape .direitos a:hover {
+  text-decoration: underline;
+}

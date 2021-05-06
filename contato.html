@@ -1,0 +1,56 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet"  href="estilos/styleContato.css">
+    <title>Sulteste - Fale Conosco</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img  src="/imagens/sulteste_logo.png" title="Logo Sulteste"  class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"> Home  </a></li>
+                <li><a href="quemsomos.html"> Quem Somos   </a></li>
+                <li><a href="reteste.html">Reteste  </a></li>
+            </ul>
+        </nav>
+        <a href="#"> <button class="btn">Fale Conosco</button></a>
+    </header>
+    <main class="container">
+        <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h2>Contato</h2>
+                <form method="POST" action="">
+                    <div class="input-group">
+                        <label  class="field-label">Nome:</label>
+                        <input type="text"  class="field" name="nome" required>
+                        <label class="field-label">E-mail:</label>
+                        <input type="email"  class="field" placeholder="Ex: contato@sulteste.com.br" name="email" required>
+                        <label class="field-label">Telefone:</label>
+                        <input type="text"  class="field" placeholder="Ex: (99)9999-9999" name="telefone" pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}" required>
+                        <label class="field-label">Mensagem:</label>
+                        <textarea maxlength="256"  class="field"  placeholder="Deixe aqui sua mensagem, breve entraremos em contato." name="mensagem">  
+                        </textarea>
+                    </div>
+                        <button type="submit" class="btn2">Enviar</button> 
+                </form>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="text-rodape">
+          <p> Rua Frei Lauro 32 - Ponte do Imaruim - Palhoça-SC CEP:88130-750</br>Telefone: (48) 3374-7001</br>Horário 8:00 ás 18:00 </p>
+        </div>
+        <div class="img-rodape">
+         <a href="https://www.gov.br/inmetro/pt-br" target="_blank"><img src="/imagens/inmetro-sem-fundo.png"width="190"title="Inmetro" ></a>
+          <a href="#home"><img src="/imagens/sultestes_logo_2.png" width="120"></a>
+        </div>
+        <div class="direitos">
+          <p>Todos direitos Reservados &copy; Sulteste Comércio de Cilindro e requalificações LTDA. Desenvolvido por <a href="https://joao-barabba.github.io/Site_Portfolio/" target="_blank">João Barabba</a></p>
+        </div>
+      </footer>
