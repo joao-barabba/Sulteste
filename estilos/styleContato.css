@@ -83,11 +83,11 @@
   margin-top: 4rem;
   margin-bottom: 1rem;
 }
-.contato-left {
+.contato-left{
   width: 15%;
-  background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9));
-  background-image: url(/imagens/contato2.jpg);
-  background-size: cover;
+  background: rgb(255,234,0);
+  background: linear-gradient(74deg, rgba(255,234,0,1) 0%, rgba(251,234,43,1) 54%, rgba(242,233,132,1) 100%);
+  
 }
 .contato-right {
   width: 80%;
