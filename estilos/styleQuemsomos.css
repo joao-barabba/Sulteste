@@ -22,7 +22,7 @@
   list-style: none;
   display: flex;
   padding: 10 100px;
-  margin-left: 200px;
+  margin-left: 18rem;
 }
 .cabecalho .menu a {
   font-size: 16px;
@@ -38,7 +38,7 @@
 }
 .cabecalho .btn {
   background-color: #fbea2b;
-  margin-left: 9rem;
+  margin-left: 18rem;
   width: 10rem;
   height: 2rem;
   border-radius: 5px;
