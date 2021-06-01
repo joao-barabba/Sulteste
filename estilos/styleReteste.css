@@ -185,9 +185,7 @@
   text-decoration: underline;
 }
 @media (max-width: 640px){
-  body{
-    height: 63.6rem;
-  }
+
   .cabecalho {
     display: flex;
     height: 3rem;
