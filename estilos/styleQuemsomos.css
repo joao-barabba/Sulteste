@@ -83,6 +83,7 @@
   justify-self: center;
   border-bottom: solid 1px #111111;
   text-shadow: 0 0.1rem 0.8rem #111111;
+
 }
 .container .video {
   grid-column-start: 3;
@@ -92,7 +93,7 @@
 }
 .container .yt {
   border-radius: 30px;
-  margin: 25 30px;
+  
   box-shadow: 0 0.1rem 0.8rem #111111;
 }
 .container .conteudo {
@@ -100,7 +101,7 @@
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  margin: 70 60px;
+  margin: 10 60px;
 }
 #slider {
   position: relative;
@@ -111,7 +112,7 @@
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 4;
-  margin: 130 200px;
+  margin: 180 200px;
   height: 200px;
   width: 300px;
   opacity: 0;
@@ -145,6 +146,7 @@
   border-bottom: solid 1px #111111;
   text-shadow: 0 0.1rem 0.8rem #111111;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 2rem;
 }
 #maps iframe {
   display: flex;
@@ -263,14 +265,13 @@
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
-    margin-top: 30px;
+    margin-top: 130px;
     margin-left: 120px;
   }
   .container .yt {
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    margin:5px;
     box-shadow: 0 0.1rem 0.8rem #111111;
   }
   .container .conteudo {
@@ -279,7 +280,7 @@
     grid-row-start: 2;
     grid-row-end: 2;
     margin: 10px;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
   }
   #slider {
@@ -290,7 +291,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 780px;
     background: rgb(223, 241, 223);
     background: linear-gradient(
       180deg,
@@ -308,6 +309,7 @@
     border-bottom: solid 1px #111111;
     text-shadow: 0 0.1rem 0.8rem #111111;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
   }
   #maps iframe {
     display: flex;
@@ -324,7 +326,7 @@
     display: grid;
     background-color: #000;
     height: 3rem;
-    width: 100%;
+    width: 780px;
     grid-template-columns: 3fr 1fr 1fr;
     grid-template-rows: 3rem .5rem;
     font-size: 8px;
@@ -423,8 +425,8 @@
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 120px;
+    margin-left: 20px;
   }
   .container .yt {
     width: 250px;
